@@ -27,3 +27,20 @@ header {
     width: 90%;
     max-width: 600px;
 }
+
+.logo, nav {
+    display: inline-block;
+}
+
+nav { 
+    margin-left: 1rem;
+}
+
+nav a {
+    text-decoration: none;
+    border: solid 1px white;
+    margin: auto 2px;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+}
