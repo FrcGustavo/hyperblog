@@ -15,7 +15,7 @@ body {
 header {
     background-color: brown;
     color: #FFF;
-    padding: 2rem;
+    padding: 1.25rem 2rem;
 }
 
 #container {
@@ -26,6 +26,11 @@ header {
     border-radius: 1rem;
     width: 90%;
     max-width: 600px;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
 }
 
 .logo, nav {
