@@ -1,4 +1,29 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 body {
-    text-align: center;
     font-size: Arial;
+}
+
+.shadow {
+    box-shadow: 2px 3px 4px rgba(0,0,0,0.5);
+}
+
+header {
+    background-color: brown;
+    color: #FFF;
+    padding: 2rem;
+}
+
+#container {
+    text-align: center;
+    margin: 5rem auto;
+    padding: 2rem;
+    border: solid 3px gray;
+    border-radius: 1rem;
+    width: 90%;
+    max-width: 600px;
 }
