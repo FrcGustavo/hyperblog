@@ -19,11 +19,15 @@ header {
 }
 
 #container {
-    text-align: center;
+    text-align: left;
     margin: 5rem auto;
     padding: 2rem;
     border: solid 3px gray;
     border-radius: 1rem;
     width: 90%;
     max-width: 600px;
+}
+
+#container p {
+    margin-bottom: 0.5rem;
 }
