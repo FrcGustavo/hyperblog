@@ -53,3 +53,15 @@ nav a {
 #container p {
     margin-bottom: 0.5rem;
 }
+
+.img-logo {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 1rem;
+}
+
+nav, .logo, .img-logo  {
+    display: inline-block;
+    vertical-align: middle;
+}
